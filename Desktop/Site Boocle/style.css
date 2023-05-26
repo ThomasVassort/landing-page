@@ -1,0 +1,519 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Police d'écriture générale */
+body {
+  color: #fff;
+  font-family: "Playfair Display", Georgia, serif;
+  text-align: center;
+}
+.blog-link{
+ 
+}
+/* Header */
+.logo-container {
+  position: fixed;
+  top: 30px;
+  left: 10px;
+  z-index: 100;
+}
+
+.video-thumbnail {
+  width: 70vw;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.language-toggle {
+  position: fixed;
+  top: 30px;
+  right: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.language-toggle:hover {
+  background-color: #ddd;
+}
+
+.social-link {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+section#about {
+  padding-top: 13rem;
+  padding-bottom: 4rem;
+}
+
+section#about h2 {
+  margin-top: 30px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.ecologo {
+  width: 600px;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+.same-size {
+  font-size: 1.5rem; /* Remplacez la valeur par la taille de police souhaitée */
+}
+.blog-link a:hover {
+  color: #ff9900; /* Remplacez la valeur par la couleur dorée souhaitée */
+  text-decoration: none; /* Supprimez la décoration de soulignement */
+}
+.contact-link a:hover {
+  color: #ff9900; /* Remplacez la valeur par la couleur dorée souhaitée */
+  text-decoration: none; /* Supprimez la décoration de soulignement */
+}
+
+.title {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.reseau {
+  margin-top: 30px;
+}
+
+.member p {
+  margin-bottom: 20px;
+}
+
+.reseaux-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+.reseaux-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  min-height: 100%;
+}
+
+
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.cta{
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.cta:hover {
+  color: #ff9900;
+}
+
+/* Sections */
+section {
+  padding: 4rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Créations */
+.video-container {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#creations .fr-text,
+#creations .en-text {
+    margin-bottom: 50px; /* vous pouvez remplacer 20px par la valeur que vous souhaitez */
+
+}
+
+
+.video-container video {
+  width: 50%;
+  height: auto;
+}
+
+/* Services */
+.service-title {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+#myVideo4 {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover; /* This will ensure your video aspect ratio is maintained */
+
+}
+
+#personalized-message p {
+  font-size: 1.5rem; /* Adjust the value to your desired font size */
+}
+
+.service {/* 
+  display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  margin-bottom: 4rem;
+}
+
+.service-text {
+  font-size: 1.8rem;
+}
+
+.about-text {
+  font-size: 1.4rem;
+}
+
+#services .fr-text,
+#services .en-text {
+    margin-bottom: 50px; /* vous pouvez remplacer 20px par la valeur que vous souhaitez */
+}
+
+.service img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
+/* Fondateur */
+.founder-photo {
+  width: 300px;
+  height: 300px;
+}
+
+
+.reseaux-container a:hover {
+  color: #ff9900; /* Remplacez la valeur par la couleur dorée souhaitée */
+  text-decoration: none; /* Supprimez la décoration de soulignement */
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+section#about {
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+}
+
+#team {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Sélection des icônes des réseaux sociaux dans la section "Fondateur" */
+.founder-social-icons a {
+  transition: all 0.3s ease;
+  color: inherit;
+}
+
+/* Effet de surbrillance lorsque la souris passe sur les icônes */
+.founder-social-icons a:hover {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+/* Contact */
+section#contact {
+  margin-top: 20px;
+}
+
+.contact-field {
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.envoyer {
+  max-width: 100px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+.envoyer.fr-text,
+.envoyer.en-text {
+  background-color: white; /* couleur de fond du bouton */
+  color: black; /* couleur du texte du bouton */
+  border: none; /* retire le bord du bouton */
+  padding: 5px 10px; /* espace à l'intérieur du bouton */
+  width: 70px; /* longueur du bouton */
+  cursor: pointer; /* change le curseur quand il survole le bouton */
+  transition: background-color 0.3s; /* transition pour l'effet de survol */
+  text-align: center; /* centrage du texte dans le bouton */
+}
+
+/* Effet de survol pour les boutons */
+.envoyer.fr-text:hover,
+.envoyer.en-text:hover {
+  background-color: #cc7a00; /* change la couleur de fond lors du survol */
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer-links a:hover,
+.social-links a:hover {
+  color: #ff9900; /* Remplacez la valeur par la couleur dorée souhaitée */
+  text-decoration: none; /* Supprimez la décoration de soulignement */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 20px;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .background-video {
+    min-height: 100vh;
+  }
+
+  .background-video {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+/* Ajout pour les grands écrans */
+@media screen and (min-width: 1024px) {
+  .video-container video {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .video-container video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  #myVideo {
+    object-fit: cover;
+    object-position: 33% center;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  body,
+  html {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  body {
+    overflow: hidden;
+  }
+
+  .background-video {
+    object-fit: cover;
+    object-position: 33% center;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .service img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+  .team img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .ecologo {
+    width: 50%;
+  }
+  .reseau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .video-container {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  .reseaux-container {
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .reseaux-container a:last-child {
+    margin-right: 0;
+  }
+  .contact-field,
+  .envoyer {
+    max-width: 80%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .social-links a {
+    margin: 0 10px;
+  }
+
+  .video-container video {
+    width: 100%;
+    height: auto;
+  }
+}

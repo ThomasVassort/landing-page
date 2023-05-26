@@ -1,0 +1,31 @@
+/* styles3.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+main {
+    padding: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    padding-left: 2rem;
+}
+
+strong {
+    font-weight: bold;
+}

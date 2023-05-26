@@ -1,0 +1,29 @@
+/* styles2.css */
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #35424a;
+padding: 1rem;
+}
+
+header h1 {
+color: #ffffff;
+margin: 0;
+}
+
+main {
+padding: 1rem;
+}
+strong {
+    font-weight: bold;
+}
+
+ul, ol {
+    padding-left: 2rem;
+}
